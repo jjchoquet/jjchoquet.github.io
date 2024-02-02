@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Juan Jose">
+    <meta name="Description" content="esta paguina es una practica para el examen">
+    <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python">
+    <title>Imagen</title>
+    <style>
+        .mdn{
+            height: 20%;
+            width: 20%;
+        }
+        .menu{
+            border-radius: 100%;
+            height: 40px;
+            width: 40px;
+            position:fixed;
+            margin-left: 10px;
+            right: 5px;
+            top: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #000000;
+            text-align: center;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+        .gato{
+            height: 100px;
+            width: 100px;
+        }
+        menu{
+            background-color: red;
+            color: #000000;
+            font-size: 20px;
+            display: flex;
+        }
+        li{
+            display: inline;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="https://developer.mozilla.org/es/" target="_blank"><img class="mdn" src="../ASSET/mdn.jpg" alt="Imagen MDN"></a>
+    <img class="menu" controls src="/SimulacroDeExamen/2Simulaclo/IMG/menu.svg">
+    
+    <table>
+        <tr>
+            <th colspan="4">hola</th>
+        </tr>
+        <tr>
+          <td rowspan="2"> hola </td>
+          <td><img class="gato" src="/SimulacroDeExamen/ASSET/gato.png" alt="gatito"></td>
+          <td> hola </td>
+          <td><a href="https://developer.mozilla.org/es/" target="_blank">enlace a MDN</a></td>
+        </tr>
+        <tr>
+          <td> hola </td>
+          <td colspan="2"> hola </td>></td>
+        </tr>
+    </table>
+
+    <menu>
+        <ul>
+            <li><a href="">inicio</a></li>
+            <li><a href="">ayuda</a></li>
+            <li><a href="">web</a></li>
+            <li><a href="">contacto</a></li>
+        </ul>
+    </menu>
+
+</body>
+</html>
